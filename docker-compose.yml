@@ -10,4 +10,5 @@ services:
     environment:
       PORT: 8080
       SSL_PORT: 8443
-      cfconfig_adminPassword: commandbox123!
+      cfconfigfile: .cfconfig.json
+      # cfconfig_adminPassword: commandbox123!
