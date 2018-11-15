@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+  cfml:
+    image: ortussolutions/commandbox:alpine
+    volumes:
+      - ./:/app
+    ports:
+    - "8080:8080"
+    environment:
+      PORT: 8080
+      SSL_PORT: 8443
+      cfconfig_adminPassword: commandbox123!
